@@ -1,0 +1,24 @@
+Существует 2 вида путей:
+	- Абсолютный
+	- Относительный
+
+Абсолютные пути задаются от корневой директории (/).
+
+Относительные пути задаются от текущей директории.
+Спецсимволы:
+	. - Текущая директория
+	.. - Директория уровнем выше
+	~ - Домашняя директория
+	* - Любые символы в любом количестве
+	? - Один любой символ
+
+mkdir {path to derictory} --- make directory
+mkdir -p {path to directory} --- make directory with subfolders
+touch {path to file} --- create a file
+cd {path} --- change directory
+rm {path to file} --- remove file
+rm -r {path to directory} --- remove directory
+rm -rf {path to dir} --- remove directory without any questions
+cp {path to copied file} {path where to copy file} --- copy file from ... to (if only directory specified - filename will be copied from initial)
+cp -r {path to copied dir} {path where to copy dir} --- copy directory from ... to
+mv {path1} {path2} --- move from ... to
